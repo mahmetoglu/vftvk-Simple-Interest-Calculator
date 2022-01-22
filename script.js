@@ -29,7 +29,8 @@ function compute() {
     document.getElementById("result").innerHTML = "<br>" + " If you deposit " + tagop + +principal.value + tagclo + ",\<br\>at an interest rate of " + tagop + rate + "%" + tagclo + "\<br\>You will receive an amount of " + tagop + interest + tagclo + ",\<br\>in the year " + tagop + year + tagclo + "\<br\>"
   }
   else {
-    alert("Enter a positive number")
+    alert("Enter a positive number");
+    principal.focus();
   }
 }
 
